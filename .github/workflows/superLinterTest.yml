@@ -13,5 +13,5 @@ jobs:
         uses: github/super-linter@v5
         env:
           VALIDATE_HTML: true
-          VALIDATE_ALL_CODEBASE: false
+          VALIDATE_ALL_CODEBASE: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
